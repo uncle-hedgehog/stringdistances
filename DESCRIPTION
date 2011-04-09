@@ -1,0 +1,11 @@
+Package: stringdistances
+Type: Package
+Title: Provides various distance metrics for strings.
+Version: 0.1
+Date: 2011-04-08
+Author: Johannes Bubenzer, Emmanuel Keuleers, Kay-Michael Wuerzner
+Maintainer: Kay-Michael Wuerzner <wuerzner@gmail.com>
+Description: This package provides metrics to compute the distance between two strings.
+License: BSD
+LazyLoad: yes
+Packaged: 2011-04-09 14:43:17 UTC; kmw
