@@ -1,0 +1,9 @@
+2011-04-12 Kay-Michael Wuerzner <wuerzner@gmail.com>
+	+ src/stringdistances_R.c: Put the R interface into separate source file
+	+ src/stringdistances.h: Added a header file for interfacing to the C
+	library.
+	* src/stringdistances.c (levenshtein_damerau): Removed the R interface.
+	(levenshtein_internal): Renamed to levenshtein.
+	(levenshtein_damerau_internal): Renamed to levenshtein_damerau.
+	* R/levenshtein_damerau.R (levenshtein_damerau): Now using the new
+	name for the R interface
